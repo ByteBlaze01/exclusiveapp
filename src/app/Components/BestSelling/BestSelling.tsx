@@ -3,6 +3,7 @@ import handBag from "../../../../public/Images/handBag.svg"
 import jblSpeaker from "../../../../public/Images/jblSpeaker.svg"
 import Image from "next/image";
 export default function BestSelling() {
+    
     return (
         <main className="mt-10">
             <div className="">
