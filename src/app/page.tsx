@@ -6,13 +6,9 @@ import ExploreProduct from './Components/ExploreProduct/ExploreProduct'
 import ProductSection from './Components/ProductSection/ProductSection'
 import { Slider } from './Components/Slider/Slider'
 import { AccordianCom } from './SignUp/Components/Accordian/AccordianCom'
-import { Navbar } from './SignUp/Components/Navbar/Navbar'
-import Footer from './Components/Footer/Footer'
-
 export default function Home() {
   return (
     <main className="">
-      <Navbar />
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/3 p-4">
           <AccordianCom />
@@ -35,7 +31,6 @@ export default function Home() {
         <ExploreProduct />
         <ArraivalSection />
       </div>
-      <Footer />
     </main>
 
   )

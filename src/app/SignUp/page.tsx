@@ -6,10 +6,7 @@ export default function SignUp (){
         <>
         <div className="h-screen">
             <Navbar />
-            {/* <div className="mx-20">
-
-            <Button label="Check" icon="pi pi-check" />
-            </div> */}
+           
         </div>
         </>
     )
