@@ -8,7 +8,7 @@ const Footer = () => {
                     <h1 className='text-white text-xl font-bold'>Exclusive</h1>
                     <p className='text-white mt-4 font-semibold'>Subscribe</p>
                     <p className='text-white mt-4'>Get 10% off your first order</p>
-                    <input type="text" className='mt-6 text-white bg-black border-white outline-white px-2 py-2' placeholder='Enter your email' />
+                    <input type="text" className='mt-6 text-white bg-black border border-white outline-white px-2 py-2' placeholder='Enter your email' />
                 </div>
                 <div className="">
                     <p className='text-white mt-4 font-semibold'>Support</p>
