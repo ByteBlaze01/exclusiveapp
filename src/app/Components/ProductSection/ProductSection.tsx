@@ -36,9 +36,8 @@ export default function ProductSection() {
                 })}
             </div>
             <div className="flex justify-center mt-4 mb-4">
-                <button className="text-white bg-red-500 px-10 py-4 rounded-xl">View All Products</button>
+                <button className="text-white bg-red-500 px-4 py-3 md:px-10 md:py-4 rounded-xl">View All Products</button>
             </div>
-            
         </main>
     );
 }

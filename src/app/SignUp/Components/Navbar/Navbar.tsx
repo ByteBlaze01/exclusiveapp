@@ -18,7 +18,7 @@ export const Navbar = () => {
                 </div>
 
                 <div className="flex">
-                    <div className="relative">
+                    <div className="hidden sm:flex relative">
                         <input
                             type="text"
                             placeholder="What are you looking for..."
