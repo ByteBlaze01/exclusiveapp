@@ -26,10 +26,10 @@ export default function Home() {
       </div>
       <div className='mx-10'>
         <ProductSection />
-        <CategorySection />
-        <BestSelling />
-        <ExploreProduct />
-        <ArraivalSection />
+        {/* <CategorySection /> */}
+        {/* <BestSelling /> */}
+        {/* <ExploreProduct /> */}
+        {/* <ArraivalSection /> */}
       </div>
     </main>
 

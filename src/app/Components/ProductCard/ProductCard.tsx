@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProductCard({image}:any) {
     return (
         <main>
-            <div className="p-3 w-[350px] relative">
+            <div className="p-3 relative">
                 <div className="bg-[#F5F5F5] group relative">
                     <div className="p-10 cursor-pointer">
                         <div className="">
@@ -14,7 +14,7 @@ export default function ProductCard({image}:any) {
                                 width={0}
                                 height={0}
                                 priority
-                                className="h-40 w-40 ml-10"
+                                className="h-40 w-40 xl:ml-10"
                             />
                         </div>
                        
