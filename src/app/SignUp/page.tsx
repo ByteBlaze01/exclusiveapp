@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { Button } from 'primereact/button';
 export default function SignUp() {
@@ -19,7 +20,7 @@ export default function SignUp() {
                         <img src="Images/Google.svg" />
                         <button className="text-center rounded-md my-3 mx-2">sign up with Google</button>
                     </div>
-                    <p className="text-center  w-[250px] h-[40px]">Already have account ? <a href="" className="outline-none font-semibold border-b  pb-1 border-black"> Log in</a></p>
+                    <p className="text-center  w-[250px] h-[40px]">Already have account ? <Link href="/Login" className="outline-none font-semibold border-b  pb-1 border-black"> Log in</Link></p>
                 </div>
             </div>
         </>
