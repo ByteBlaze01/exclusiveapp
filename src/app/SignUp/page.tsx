@@ -11,16 +11,17 @@ export default function SignUp (){
                 <Button label="Check" icon="pi pi-check" />
                 </div> */}
             </div>
-            <div className="grid sm:grid-cols-2 grid-rows-2">
+            <div className="grid sm:grid-cols-2">
                 <div className="w-[100%] h-[400%]">
                     <img src="/Images/cameraimg.svg" alt="camera image" ></img>
                 </div>
 
-                
+               
+     
 
-                <div className="mx-auto">
+                <div className="mx-auto my-auto">
                     <p className="lg:text-[30px] sm:mx-2 text-[30px]  sm:text-[25px] font-semibold">Create an account</p>
-                    <p className="text-[14px] sm:mx-2 font-semibold">Enter your details below</p>
+                    <p className="text-[14px] sm:mx-2">Enter your details below</p>
                     <input type="text" placeholder="Name" className="outline-none sm:mx-2 border-b pb-1 border-black sm:my-3 md:my-5 my-5" /> <br />
                     <input type="text" placeholder="Email or Phone number" className="outline-none sm:mx-2 border-b pb-1 border-black" /> <br />
                     <input type="Password" placeholder="Password" className="outline-none sm:mx-2 border-b pb-1 border-black sm:my-3 md:my-5 my-5" /> <br />
