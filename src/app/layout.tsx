@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
+import { Navbar } from './SignUp/Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 // import 'primeicons/primeicons.css';
 // import 'primeflex/primeflex.css';
 const inter = Inter({ subsets: ['latin'] })
@@ -19,7 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
   )
 }

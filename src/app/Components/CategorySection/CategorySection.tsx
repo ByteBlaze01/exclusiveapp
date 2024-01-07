@@ -5,7 +5,7 @@ export default function CategorySection() {
         <>
             <main>
                 <div className="">
-                    <h1 className="text-lg text-[#DB4444] font-bold">Categorie's</h1>
+                    <h1 className="sm:text-lg text-[#DB4444] font-bold">Categorie's</h1>
                     <div className="flex justify-between">
                         <h1 className="md:text-5xl font-bold">Browse By Category</h1>
                         <div className="flex">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Navbar = () => {
     return (
@@ -10,15 +11,15 @@ export const Navbar = () => {
 
                 <div className="md:ml-40 mb-4 md:mb-0 hidden md:flex">
                     <ul className="flex px-5 mx-2 md:mx-5">
-                        <li className="mx-2 md:mx-5 cursor-pointer">Home</li>
+                        <li className="mx-2 md:mx-5 cursor-pointer"><Link href="/">Home</Link></li>
                         <li className="mx-2 md:mx-5 cursor-pointer">Contact</li>
                         <li className="mx-2 md:mx-5 cursor-pointer">About</li>
-                        <li className="mx-2 md:mx-5 cursor-pointer">SignUp</li>
+                        <li className="mx-2 md:mx-5 cursor-pointer"><Link href="/SignUp">SignUp</Link></li>
                     </ul>
                 </div>
 
                 <div className="flex">
-                    <div className="relative">
+                    <div className="hidden sm:flex relative">
                         <input
                             type="text"
                             placeholder="What are you looking for..."

@@ -9,20 +9,20 @@ export default function ProductSection() {
                     <h1 className="md:text-5xl font-bold mt-10">Flash Sales</h1>
                     <div className="md:mx-20 flex">
                         <div className="sm:mx-10">
-                            <h1 className="text-lg font-bold">Days</h1>
-                            <h1 className="text-6xl font-bold">03</h1>
+                            <h1 className="md:text-lg font-bold">Days</h1>
+                            <h1 className="md:text-6xl font-bold">03</h1>
                         </div>
                         <div className="sm:mx-10">
-                            <h1 className="text-lg font-bold">Hours</h1>
-                            <h1 className="text-6xl font-bold">12</h1>
+                            <h1 className="md:text-lg font-bold">Hours</h1>
+                            <h1 className="md:text-6xl font-bold">12</h1>
                         </div>
                         <div className="sm:mx-10">
-                            <h1 className="text-lg font-bold">Minutes</h1>
-                            <h1 className="text-6xl font-bold">43</h1>
+                            <h1 className="md:text-lg font-bold">Minutes</h1>
+                            <h1 className="md:text-6xl font-bold">43</h1>
                         </div>
                         <div className="sm:mx-10">
-                            <h1 className="text-lg font-bold">Seconds</h1>
-                            <h1 className="text-6xl font-bold">43</h1>
+                            <h1 className="md:text-lg font-bold">Seconds</h1>
+                            <h1 className="md:text-6xl font-bold">43</h1>
                         </div>
                     </div>
                 </div>
@@ -36,9 +36,8 @@ export default function ProductSection() {
                 })}
             </div>
             <div className="flex justify-center mt-4 mb-4">
-                <button className="text-white bg-red-500 px-10 py-4 rounded-xl">View All Products</button>
+                <button className="text-white bg-red-500 px-4 py-3 md:px-10 md:py-4 rounded-xl">View All Products</button>
             </div>
-            
         </main>
     );
 }
