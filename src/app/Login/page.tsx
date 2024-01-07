@@ -1,7 +1,7 @@
 export default async function LoginPage() {
   return (
     <main>
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
         <div className=" mb-[50px] mt-[50px] ">
           <img src="/Images/loginImg.svg " alt="error"></img>
         </div>
@@ -9,7 +9,9 @@ export default async function LoginPage() {
           <h2 className="lg:text-[35px]  sm:mx-2 text-[30px]  sm:text-[25px] font-semibold ">
             Login in to Exclusive
           </h2>
-          <p className=" text-[15px] sm:mx-2 font-semibold">Enter your details below</p>
+          <p className=" text-[15px] sm:mx-2 font-semibold">
+            Enter your details below
+          </p>
           <br />
           <input
             type="email"
@@ -21,7 +23,7 @@ export default async function LoginPage() {
           <input
             type="password"
             placeholder="password"
-            className="outline-none sm:mx-2 border-b pb-3 border-black sm:my-3 md:my-5 my-5" 
+            className="outline-none sm:mx-2 border-b pb-3 border-black sm:my-3 md:my-5 my-5"
           />
           <br />
           <br />
