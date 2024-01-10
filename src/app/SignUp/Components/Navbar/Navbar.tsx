@@ -9,23 +9,23 @@ export const Navbar = () => {
                     <h1 className="font-bold text-2xl">Exclusive</h1>
                 </div>
 
-                <div className="md:ml-40 mb-4 md:mb-0 hidden md:flex">
-                    <ul className="flex px-5 mx-2 md:mx-5">
-                        <li className="mx-2 md:mx-5 cursor-pointer"><Link href="/">Home</Link></li>
-                        <li className="mx-2 md:mx-5 cursor-pointer">Contact</li>
-                        <li className="mx-2 md:mx-5 cursor-pointer">About</li>
-                        <li className="mx-2 md:mx-5 cursor-pointer"><Link href="/SignUp">SignUp</Link></li>
+                <div className="mb-4 md:mb-0 hidden md:flex">
+                    <ul className="flex items-center px-5 mx-2 md:mx-auto">
+                        <li className="mx-2 lg:mx-5 cursor-pointer"><Link href="/">Home</Link></li>
+                        <li className="mx-2 lg:mx-5 cursor-pointer">Contact</li>
+                        <li className="mx-2 lg:mx-5 cursor-pointer">About</li>
+                        <li className="mx-2 lg:mx-5 cursor-pointer"><Link href="/SignUp">SignUp</Link></li>
                     </ul>
                 </div>
 
                 <div className="flex">
-                    <div className="hidden sm:flex relative">
+                    <div className="hidden sm:flex">
                         <input
                             type="text"
                             placeholder="What are you looking for..."
-                            className="w-[200px] pl-4 pr-8 md:pr-10 py-2 border border-gray-300 focus:outline-none"
+                            className="w-[200px] pl-4 pr-8 md:pr-10 py-2 border border-gray-300 outline-none"
                         />
-                        <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                        <div className=" inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                             <Image
                                 src="/Images/searchIcon.svg"
                                 alt="Search Icon"
