@@ -57,34 +57,35 @@ export default function ArraivalSection() {
           </div>
         </div>
       </div>
-      <main className="mt-10">        
-        <div className=" grid grid-cols-1 ml-[100px] my-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+
+      <main className="mt-10">
+        <div className="  mx-auto grid grid-cols-1 ml-[100px] my-20 sm:grid-cols-2 gap-3 md:grid-cols-3  lg:grid-cols-3   xl:grid-cols-3">
           <div className="icon1  ">
             <img
               src="/Images/Services 1.svg "
               alt="error1"
-              className="mx-16"
+              className="mx-auto sm:mx-16 "
             ></img>
-            <h1 className="font-bold my-5">FREE AND FAST DELIVERY</h1>
-            <p>Free delivery for all orders over $140</p>
+            <h1 className="font-bold my-5 mx-auto">FREE AND FAST DELIVERY</h1>
+            <p className="mx-auto">Free delivery for all orders over $140</p>
           </div>
           <div className="icon2">
             <img
               src="/Images/Services2.svg"
               alt="error2"
-              className="mx-16"
+              className="mx-auto sm:mx-16 "
             ></img>
-            <h1 className="font-bold my-5">24/7 CUSTOMER SERVICES </h1>
-            <p>Friendly 24/7 customer support</p>
+            <h1 className="font-bold my-5 mx-auto">24/7 CUSTOMER SERVICES </h1>
+            <p className="mx-auto">Friendly 24/7 customer support</p>
           </div>
           <div className="icon3">
             <img
               src="/Images/Services 3.svg "
               alt="error3"
-              className="mx-16"
+              className="mx-auto sm:mx-16   "
             ></img>
-            <h1 className="font-bold my-5">MONEY BACK GUARANTEE</h1>
-            <p>we reurn money within 30 days</p>
+            <h1 className="font-bold my-5 mx-auto">MONEY BACK GUARANTEE</h1>
+            <p className="mx-auto">we reurn money within 30 days</p>
           </div>
         </div>
       </main>
