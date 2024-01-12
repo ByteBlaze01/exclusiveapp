@@ -65,7 +65,7 @@ export default function Account() {
 
                         <div className="flex place-content-end mt-3 text-xs">
                                 <button >Cancel</button>
-                                <button className="bg-[#DB4444]  px-5 py-2 ml-5 rounded-sm text-white">Save Changes</button>   
+                                <button className="bg-[#DB4444] px-3 py-1  sm:px-5 sm:py-2 ml-5 rounded-sm text-white">Save Changes</button>   
                         </div>
                         
                     </div>
